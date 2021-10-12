@@ -1,5 +1,5 @@
 from telegram import User, Chat
-
+ https://t.me/joinchat/2Q_1HnUbkno4ZDVl
 
 def user_can_promote(chat: Chat, user: User, bot_id: int) -> bool:
     return chat.get_member(user.id).can_promote_members
