@@ -2,7 +2,7 @@ import importlib
 import time
 import re
 from sys import argv
-from typing import Optional
+from typing import Optional 
 
 from YoneRobot import (
     ALLOW_EXCL,
